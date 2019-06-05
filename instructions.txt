@@ -1,0 +1,53 @@
+	Task 1
+1. cd Desktop
+2. mkdir myProject
+3. cd myProject
+4. touch app.js
+5. cd ..
+mkdir myProject2
+cd ..
+cd myProject
+6. cp app.js ~/Desktop/myProject2
+
+	Task 2
+1. touch exercise.txt
+2. mv exercise.txt /tmp
+3. rm tmp/exercise.txt
+
+	Task 3
+1. touch umuzi.txt recruit.txt cohort.txt
+2. nano umuzi.txt recruit.txt cohort.txt
+3. cat  umuzi.txt recruit.txt cohort.txt
+4. cat  umuzi.txt recruit.txt cohort.txt >> summary.txt
+5. cat >> summary.txt
+
+	Task 4
+1. locate umuzi.txt
+2. locate umuzi.txt
+cat search_result.txt
+
+	Task 5
+1. mkdir mydocument
+touch pad.txt
+2. cd ..
+cd Desktop
+mkdir work
+3. cp pad.txt ~/Desktop/mydocument/pad_copy.txt 
+4. sudo updatedb
+5. cd -
+6. locate pad_copy.txt
+
+	Task 6
+1. find ~ *.pdf
+2. find ~*.pdf >> search_result.txt
+3. find ~/Desktop/ mtime -1 -ls
+
+	Task 10
+1. nano my_bio.txt
+2. ctrl^X, yes, enter
+3. mkdir my_files
+mv my_bio.txt ~/Desktop/work
+
+
+
+ 
